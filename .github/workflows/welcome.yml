@@ -4,3 +4,7 @@ on:
     types: [opened]
 permissions:
   pull-requests: false
+jobs:
+  build:
+    name: Doo something cool
+    runs-on: ubuntu-latest
