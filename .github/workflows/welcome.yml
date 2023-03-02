@@ -1,0 +1,6 @@
+name: pull-request
+on:
+  pull_request:
+    types: [opened]
+permissions:
+  pull-requests: false
